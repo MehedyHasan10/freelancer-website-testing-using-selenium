@@ -1,0 +1,1527 @@
+{
+  "id": "390fbe46-643f-4009-9915-6edbfd4435f2",
+  "version": "2.0",
+  "name": "Final SQT",
+  "url": "https://www.freelancer.com/login",
+  "tests": [{
+    "id": "bf901d64-4f0b-4645-8d34-95cd53b649ae",
+    "name": "login validation check",
+    "commands": [{
+      "id": "90ceb657-92fc-4f64-b3ff-593074f61431",
+      "comment": "",
+      "command": "times",
+      "target": "5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56285e7c-88b9-4925-a532-44e6fb930822",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.freelancer.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a70b17a-8d75-4597-ad39-1b0ec6bc4a1c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "811ede8d-54ef-46f0-80a6-e1b929f933a6",
+      "comment": "",
+      "command": "click",
+      "target": "id=emailOrUsernameInput",
+      "targets": [
+        ["id=emailOrUsernameInput", "id"],
+        ["css=#emailOrUsernameInput", "css:finder"],
+        ["xpath=//input[@id='emailOrUsernameInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "82425ffb-8f07-44be-89d9-9bf849852797",
+      "comment": "",
+      "command": "click",
+      "target": "id=emailOrUsernameInput",
+      "targets": [
+        ["id=emailOrUsernameInput", "id"],
+        ["css=#emailOrUsernameInput", "css:finder"],
+        ["xpath=//input[@id='emailOrUsernameInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7a2fb33-4e6a-420e-8416-f5ee6fd5b82d",
+      "comment": "",
+      "command": "type",
+      "target": "id=emailOrUsernameInput",
+      "targets": [
+        ["id=emailOrUsernameInput", "id"],
+        ["css=#emailOrUsernameInput", "css:finder"],
+        ["xpath=//input[@id='emailOrUsernameInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "siam1234"
+    }, {
+      "id": "e38ae548-95b7-4672-8d74-8c39af9cbde5",
+      "comment": "",
+      "command": "click",
+      "target": "id=passwordInput",
+      "targets": [
+        ["id=passwordInput", "id"],
+        ["css=#passwordInput", "css:finder"],
+        ["xpath=//input[@id='passwordInput']", "xpath:attributes"],
+        ["xpath=//fl-input[2]/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8871f34-39c1-4f77-a92d-a54c9778602c",
+      "comment": "",
+      "command": "type",
+      "target": "id=passwordInput",
+      "targets": [
+        ["id=passwordInput", "id"],
+        ["css=#passwordInput", "css:finder"],
+        ["xpath=//input[@id='passwordInput']", "xpath:attributes"],
+        ["xpath=//fl-input[2]/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "c0945829-49c5-4fa3-8e8f-194b2c2d738c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CheckboxLabel",
+      "targets": [
+        ["css=.CheckboxLabel", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Remember me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "51a1c14c-9641-488b-8a80-22e4bec9faee",
+      "comment": "",
+      "command": "click",
+      "target": "css=app-login-signup-button .ButtonElement",
+      "targets": [
+        ["css=app-login-signup-button .ButtonElement", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//app-login-signup-button/fl-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "785b5909-4c30-4f95-be99-498b4b3770a0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.BannerAlertBox-desc",
+      "targets": [
+        ["css=.BannerAlertBox-desc", "css:finder"],
+        ["xpath=//fl-bit[2]/fl-text", "xpath:position"],
+        ["xpath=//fl-text[contains(.,'Incorrect email, username or password.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1c31a31-c493-48bb-8246-ff129222af62",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.BannerAlertBox-desc",
+      "targets": [
+        ["css=.BannerAlertBox-desc", "css:finder"],
+        ["xpath=//fl-bit[2]/fl-text", "xpath:position"],
+        ["xpath=//fl-text[contains(.,'Incorrect email, username or password.')]", "xpath:innerText"]
+      ],
+      "value": "Incorrect email, username or password."
+    }, {
+      "id": "9a0d6518-c215-4e3a-9b60-292e283f0730",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8e69004a-b2ee-4874-8b92-847e612169e7",
+    "name": "req validation check",
+    "commands": [{
+      "id": "ef0039da-6fb8-4210-9274-3b9c6f7ce47b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.freelancer.com/signup",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56f6c178-e3b1-4db2-9224-c62052788384",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23f2d3aa-68e2-4ec4-8c20-5aa9e8c23617",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NativeElementContainer > .ng-tns-c177-5",
+      "targets": [
+        ["css=.NativeElementContainer > .ng-tns-c177-5", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4157337f-e2d4-48c5-813f-636b05d712e3",
+      "comment": "",
+      "command": "type",
+      "target": "css=.NativeElementContainer > .ng-tns-c177-5",
+      "targets": [
+        ["css=.NativeElementContainer > .ng-tns-c177-5", "css:finder"],
+        ["xpath=//input[@type='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "111111111111"
+    }, {
+      "id": "6f811cb7-5812-48bf-960f-d4dda7a68adc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HasIconEnd",
+      "targets": [
+        ["css=.HasIconEnd", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//fl-input[2]/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3c6e0be-f93f-4496-80b6-917fa0832659",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c177-5 > .ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c177-5 > .ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-validation-error/fl-bit/fl-text/div", "xpath:position"],
+        ["xpath=//div[contains(.,'Please enter a valid email address.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "24de706d-79dc-47c7-8a12-77f668533bf5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ng-tns-c177-5 > .ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c177-5 > .ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-validation-error/fl-bit/fl-text/div", "xpath:position"],
+        ["xpath=//div[contains(.,'Please enter a valid email address.')]", "xpath:innerText"]
+      ],
+      "value": "Please enter a valid email address."
+    }, {
+      "id": "ee8228b8-855c-414b-a220-3800680d10da",
+      "comment": "",
+      "command": "type",
+      "target": "css=.HasIconEnd",
+      "targets": [
+        ["css=.HasIconEnd", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//fl-input[2]/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": "sssssssssssssssssss"
+    }, {
+      "id": "d4818c8e-9381-48a5-a7f1-57627a156dbf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CheckboxLabel",
+      "targets": [
+        ["css=.CheckboxLabel", "css:finder"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "227b4862-dc5a-40e3-a2be-d63e98fb5764",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c177-6 > .ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c177-6 > .ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-input[2]/fl-validation-error/fl-bit/fl-text/div", "xpath:position"],
+        ["xpath=//div[contains(.,'Must contain lower and uppercase or a number.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae8661a9-d867-418b-addc-cfd4f2bc4be0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ng-tns-c177-6 > .ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c177-6 > .ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-input[2]/fl-validation-error/fl-bit/fl-text/div", "xpath:position"],
+        ["xpath=//div[contains(.,'Must contain lower and uppercase or a number.')]", "xpath:innerText"]
+      ],
+      "value": "Must contain lower and uppercase or a number."
+    }, {
+      "id": "94967c28-8e52-4d06-92e8-dda7bc1381d0",
+      "comment": "",
+      "command": "click",
+      "target": "css=app-login-signup-button .ButtonElement",
+      "targets": [
+        ["css=app-login-signup-button .ButtonElement", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//app-login-signup-button/fl-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Join Freelancer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e94e8207-95db-4559-9464-1c1223a661ff",
+    "name": "registration ",
+    "commands": []
+  }, {
+    "id": "5b9e378f-56b5-4dce-8c28-026db7dd95fb",
+    "name": "client profile validation",
+    "commands": [{
+      "id": "3d44d718-be3a-476b-8150-ed96da3e7055",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.freelancer.com/u/MehediSiam11",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6d08ce0-d62a-4e02-8d22-f96ac9d8eb35",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34265628-380d-4a76-b034-d712292884f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.EditButton > .ButtonElement",
+      "targets": [
+        ["css=.EditButton > .ButtonElement", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//fl-col/fl-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Edit Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "092bf7f0-834a-4116-9e10-1adc4375ec1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.BottomButtons > fl-button:nth-child(2) > .ButtonElement",
+      "targets": [
+        ["css=.BottomButtons > fl-button:nth-child(2) > .ButtonElement", "css:finder"],
+        ["xpath=(//button[@type='button'])[21]", "xpath:attributes"],
+        ["xpath=//fl-col[5]/fl-button[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0318a05e-283b-41e6-b7da-8919a13b173e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c185-44 .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c185-44 .NativeElement", "css:finder"],
+        ["xpath=//fl-bit/fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10e8245b-7fe6-4463-b5f9-fd7933ca5f7e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ng-tns-c185-44 .NativeElement",
+      "targets": [],
+      "value": "Please enter your professional headline."
+    }, {
+      "id": "a9280eb5-f79f-4991-9347-e30a271d4642",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c185-45 .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c185-45 .NativeElement", "css:finder"],
+        ["xpath=//fl-col[4]/fl-textarea/fl-bit/fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fed60fd8-bc61-4fe0-a033-c8731de11e4c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ng-tns-c185-45 .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c185-45 .NativeElement", "css:finder"],
+        ["xpath=//fl-col[4]/fl-textarea/fl-bit/fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": "Please enter a profile summary."
+    }, {
+      "id": "f26ff19a-71a3-428c-95e7-73435250e503",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ValidationError .NativeElement",
+      "targets": [
+        ["css=.ValidationError .NativeElement", "css:finder"],
+        ["xpath=//fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01bac791-be99-40e5-b4bb-2d84bbf9c6ae",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ValidationError .NativeElement",
+      "targets": [
+        ["css=.ValidationError .NativeElement", "css:finder"],
+        ["xpath=//fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": "Please enter your hourly rate."
+    }]
+  }, {
+    "id": "cab04f00-4217-4843-bcc1-e32605220555",
+    "name": "client profile edit",
+    "commands": [{
+      "id": "08751531-66fc-4581-bfe8-9f9a49b22b63",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.freelancer.com/u/MehediSiam11",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df1db980-083f-4185-bcfe-57d1872cc9f3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba5f83c8-8635-4f15-8cb1-a5247756df60",
+      "comment": "",
+      "command": "click",
+      "target": "css=.EditButton > .ButtonElement",
+      "targets": [
+        ["css=.EditButton > .ButtonElement", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//fl-col/fl-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Edit Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64e82d8a-6f2c-4392-801f-df388011c0d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=professionalHeadlineEdit",
+      "targets": [
+        ["id=professionalHeadlineEdit", "id"],
+        ["css=#professionalHeadlineEdit", "css:finder"],
+        ["xpath=//textarea[@id='professionalHeadlineEdit']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3bd5137-2678-4fcf-afee-3e495293c664",
+      "comment": "",
+      "command": "type",
+      "target": "id=professionalHeadlineEdit",
+      "targets": [
+        ["id=professionalHeadlineEdit", "id"],
+        ["css=#professionalHeadlineEdit", "css:finder"],
+        ["xpath=//textarea[@id='professionalHeadlineEdit']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "I am Js developer work in MERN base web development"
+    }, {
+      "id": "8cfd9a3e-30e4-4aa6-81ef-704352f51adc",
+      "comment": "",
+      "command": "click",
+      "target": "id=userSummaryEdit",
+      "targets": [
+        ["id=userSummaryEdit", "id"],
+        ["css=#userSummaryEdit", "css:finder"],
+        ["xpath=//textarea[@id='userSummaryEdit']", "xpath:attributes"],
+        ["xpath=//fl-col[4]/fl-textarea/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd75d564-308b-47ed-a01e-2829d3ce7d36",
+      "comment": "",
+      "command": "click",
+      "target": "id=professionalHeadlineEdit",
+      "targets": [
+        ["id=professionalHeadlineEdit", "id"],
+        ["css=#professionalHeadlineEdit", "css:finder"],
+        ["xpath=//textarea[@id='professionalHeadlineEdit']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9da5859f-4289-474c-abe3-664633e1d5f3",
+      "comment": "",
+      "command": "click",
+      "target": "id=professionalHeadlineEdit",
+      "targets": [
+        ["id=professionalHeadlineEdit", "id"],
+        ["css=#professionalHeadlineEdit", "css:finder"],
+        ["xpath=//textarea[@id='professionalHeadlineEdit']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b136edbe-d48a-4129-85b9-1dc912acfd09",
+      "comment": "",
+      "command": "type",
+      "target": "id=professionalHeadlineEdit",
+      "targets": [
+        ["id=professionalHeadlineEdit", "id"],
+        ["css=#professionalHeadlineEdit", "css:finder"],
+        ["xpath=//textarea[@id='professionalHeadlineEdit']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "I am Js developer work in MERN project"
+    }, {
+      "id": "32f7c0f0-c96f-4bbb-96fd-f99274bfee21",
+      "comment": "",
+      "command": "click",
+      "target": "id=userSummaryEdit",
+      "targets": [
+        ["id=userSummaryEdit", "id"],
+        ["css=#userSummaryEdit", "css:finder"],
+        ["xpath=//textarea[@id='userSummaryEdit']", "xpath:attributes"],
+        ["xpath=//fl-col[4]/fl-textarea/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c9dea0a-174c-480e-aacb-190628540fc2",
+      "comment": "",
+      "command": "click",
+      "target": "id=userSummaryEdit",
+      "targets": [
+        ["id=userSummaryEdit", "id"],
+        ["css=#userSummaryEdit", "css:finder"],
+        ["xpath=//textarea[@id='userSummaryEdit']", "xpath:attributes"],
+        ["xpath=//fl-col[4]/fl-textarea/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07ef1e28-fda2-48f2-9b39-9d9f636f7779",
+      "comment": "",
+      "command": "click",
+      "target": "id=userSummaryEdit",
+      "targets": [
+        ["id=userSummaryEdit", "id"],
+        ["css=#userSummaryEdit", "css:finder"],
+        ["xpath=//textarea[@id='userSummaryEdit']", "xpath:attributes"],
+        ["xpath=//fl-col[4]/fl-textarea/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "070e66b0-62b4-48f1-88f0-1dadc0fce577",
+      "comment": "",
+      "command": "click",
+      "target": "id=userSummaryEdit",
+      "targets": [
+        ["id=userSummaryEdit", "id"],
+        ["css=#userSummaryEdit", "css:finder"],
+        ["xpath=//textarea[@id='userSummaryEdit']", "xpath:attributes"],
+        ["xpath=//fl-col[4]/fl-textarea/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73d4e682-6255-4779-8c17-da4b3cdc3e44",
+      "comment": "",
+      "command": "click",
+      "target": "id=userSummaryEdit",
+      "targets": [
+        ["id=userSummaryEdit", "id"],
+        ["css=#userSummaryEdit", "css:finder"],
+        ["xpath=//textarea[@id='userSummaryEdit']", "xpath:attributes"],
+        ["xpath=//fl-col[4]/fl-textarea/textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd28b8ac-9a0f-42d9-9209-b4e6f1d37c93",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1.600000023841858)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "395b1312-769c-4643-8522-1816336e1927",
+      "comment": "",
+      "command": "type",
+      "target": "id=userSummaryEdit",
+      "targets": [
+        ["id=userSummaryEdit", "id"],
+        ["css=#userSummaryEdit", "css:finder"],
+        ["xpath=//textarea[@id='userSummaryEdit']", "xpath:attributes"],
+        ["xpath=//fl-col[4]/fl-textarea/textarea", "xpath:position"]
+      ],
+      "value": "I am student .Now study at AIUB. I done some project hat I have done my university life . example : University Management system using java"
+    }, {
+      "id": "708e0602-8362-4c9c-a0eb-866a304dad38",
+      "comment": "",
+      "command": "type",
+      "target": "id=hourlyRateEdit",
+      "targets": [
+        ["id=hourlyRateEdit", "id"],
+        ["css=#hourlyRateEdit", "css:finder"],
+        ["xpath=//input[@id='hourlyRateEdit']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "-1"
+    }, {
+      "id": "7a022589-e4b6-494f-9799-32e5c53b1520",
+      "comment": "",
+      "command": "click",
+      "target": "id=hourlyRateEdit",
+      "targets": [
+        ["id=hourlyRateEdit", "id"],
+        ["css=#hourlyRateEdit", "css:finder"],
+        ["xpath=//input[@id='hourlyRateEdit']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "197f24f3-81e8-433c-b710-e3849fde9950",
+      "comment": "",
+      "command": "click",
+      "target": "id=hourlyRateEdit",
+      "targets": [
+        ["id=hourlyRateEdit", "id"],
+        ["css=#hourlyRateEdit", "css:finder"],
+        ["xpath=//input[@id='hourlyRateEdit']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51011380-b55e-46ee-b8a3-556b86326d2d",
+      "comment": "",
+      "command": "type",
+      "target": "id=hourlyRateEdit",
+      "targets": [
+        ["id=hourlyRateEdit", "id"],
+        ["css=#hourlyRateEdit", "css:finder"],
+        ["xpath=//input[@id='hourlyRateEdit']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "33"
+    }, {
+      "id": "a6bac049-718d-4a96-8e57-4f3218121c9c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.BottomButtons > fl-button:nth-child(2) > .ButtonElement",
+      "targets": [
+        ["css=.BottomButtons > fl-button:nth-child(2) > .ButtonElement", "css:finder"],
+        ["xpath=(//button[@type='button'])[21]", "xpath:attributes"],
+        ["xpath=//fl-col[5]/fl-button[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6153ded7-a4f4-42a2-98d3-d768e81ca19a",
+    "name": "password change validation",
+    "commands": [{
+      "id": "42fc56b9-58f7-4be4-b302-69c8a39879f0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.freelancer.com/user/settings/password",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91a14627-717b-4118-a8d0-dcd663dd1f61",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "181ccab7-378e-429e-9c40-045aeaa0a2ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.BitsListItemContent > .ng-star-inserted > .ButtonElement",
+      "targets": [
+        ["css=.BitsListItemContent > .ng-star-inserted > .ButtonElement", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//fl-list-item[2]/fl-bit/fl-bit/fl-bit/fl-bit/fl-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8b7bf59-d2c0-43d7-b9d9-9b72c564449a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c181-21 > .ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c181-21 > .ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-input[@id='current-password']/fl-validation-error/fl-bit/fl-text/div", "xpath:idRelative"],
+        ["xpath=//fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36c8557a-946b-48de-8b07-238d52a97020",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ng-tns-c181-21 fl-text",
+      "targets": [
+        ["css=.ng-tns-c181-21 fl-text", "css:finder"],
+        ["xpath=//fl-input[@id='current-password']/fl-validation-error/fl-bit/fl-text", "xpath:idRelative"],
+        ["xpath=//fl-validation-error/fl-bit/fl-text", "xpath:position"],
+        ["xpath=//fl-text[contains(.,'This field is required')]", "xpath:innerText"]
+      ],
+      "value": "This field is required"
+    }, {
+      "id": "31ba97c2-23a2-4801-980a-e3001a5e8bb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c181-22 fl-text",
+      "targets": [
+        ["css=.ng-tns-c181-22 fl-text", "css:finder"],
+        ["xpath=//fl-input[@id='new-password']/fl-validation-error/fl-bit/fl-text", "xpath:idRelative"],
+        ["xpath=//fl-bit[2]/fl-input/fl-validation-error/fl-bit/fl-text", "xpath:position"],
+        ["xpath=//fl-text[contains(.,'Please enter a password.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc4163d5-2f43-4aa7-af8f-0db63a64e503",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ng-tns-c181-22 > .ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c181-22 > .ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-input[@id='new-password']/fl-validation-error/fl-bit/fl-text/div", "xpath:idRelative"],
+        ["xpath=//fl-bit[2]/fl-input/fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": "Please enter a password."
+    }, {
+      "id": "69684553-faac-4411-a77d-308e1a9952f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c181-23 > .ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c181-23 > .ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-input[@id='confirm-password']/fl-validation-error/fl-bit/fl-text/div", "xpath:idRelative"],
+        ["xpath=//fl-bit[3]/fl-input/fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "358e7c41-4311-4d5f-8048-6326f9191d39",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ng-tns-c181-23 > .ErrorContainer .NativeElement",
+      "targets": [],
+      "value": "This field is required"
+    }]
+  }, {
+    "id": "81b096b7-81dc-469a-928b-3cdd737b4a7c",
+    "name": "password change",
+    "commands": [{
+      "id": "9a0c1d8f-b7c8-4649-9b99-5b1cab79c16a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.freelancer.com/user/settings/password",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c9b4012-1449-4305-9f98-10aca96afc89",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9af580ca-8d5e-46d1-a74f-a50f5b28133c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NativeElementContainer > #current-password",
+      "targets": [
+        ["css=.NativeElementContainer > #current-password", "css:finder"],
+        ["xpath=//input[@id='current-password']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='current-password']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76b910f4-6ee3-437b-95eb-a86cae8d7028",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c181-21 > .ButtonElement",
+      "targets": [
+        ["css=.ng-tns-c181-21 > .ButtonElement", "css:finder"],
+        ["xpath=(//button[@type='button'])[14]", "xpath:attributes"],
+        ["xpath=//fl-input[@id='current-password']/fl-bit/fl-bit/fl-button/button", "xpath:idRelative"],
+        ["xpath=//fl-input/fl-bit/fl-bit/fl-button/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "044ca3a6-208a-41c4-ac74-49922d4ba0c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NativeElementContainer > #current-password",
+      "targets": [
+        ["css=.NativeElementContainer > #current-password", "css:finder"],
+        ["xpath=//input[@id='current-password']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='current-password']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a780f55a-5ed8-4068-9d6b-fcdfdf67c8b2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.NativeElementContainer > #current-password",
+      "targets": [
+        ["css=.NativeElementContainer > #current-password", "css:finder"],
+        ["xpath=//input[@id='current-password']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='current-password']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "#Siam1234"
+    }, {
+      "id": "11de74b3-a51a-4011-a645-8e09e266ce92",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NativeElementContainer > #new-password",
+      "targets": [
+        ["css=.NativeElementContainer > #new-password", "css:finder"],
+        ["xpath=//input[@id='new-password']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='new-password']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//fl-bit[2]/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7fbf173-0886-4d61-8bbd-526bfa98f495",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c181-22 > .ButtonElement",
+      "targets": [
+        ["css=.ng-tns-c181-22 > .ButtonElement", "css:finder"],
+        ["xpath=(//button[@type='button'])[15]", "xpath:attributes"],
+        ["xpath=//fl-input[@id='new-password']/fl-bit/fl-bit/fl-button/button", "xpath:idRelative"],
+        ["xpath=//fl-bit[2]/fl-input/fl-bit/fl-bit/fl-button/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0557643-cdbb-4193-a328-f3a1f9b626fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NativeElementContainer > #new-password",
+      "targets": [
+        ["css=.NativeElementContainer > #new-password", "css:finder"],
+        ["xpath=//input[@id='new-password']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='new-password']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//fl-bit[2]/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c10cbcd5-d83a-4394-80ff-d97093d45f71",
+      "comment": "",
+      "command": "type",
+      "target": "css=.NativeElementContainer > #new-password",
+      "targets": [
+        ["css=.NativeElementContainer > #new-password", "css:finder"],
+        ["xpath=//input[@id='new-password']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='new-password']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//fl-bit[2]/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": "#siam1234"
+    }, {
+      "id": "45c1e5d6-bc4d-46ea-9382-2b145c9b01f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c181-23 > .ButtonElement",
+      "targets": [
+        ["css=.ng-tns-c181-23 > .ButtonElement", "css:finder"],
+        ["xpath=(//button[@type='button'])[16]", "xpath:attributes"],
+        ["xpath=//fl-input[@id='confirm-password']/fl-bit/fl-bit/fl-button/button", "xpath:idRelative"],
+        ["xpath=//fl-bit[3]/fl-input/fl-bit/fl-bit/fl-button/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8585624b-440d-4eb4-9f38-198a0e2e280d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NativeElementContainer > #confirm-password",
+      "targets": [
+        ["css=.NativeElementContainer > #confirm-password", "css:finder"],
+        ["xpath=//input[@id='confirm-password']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='confirm-password']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//fl-bit[3]/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7b4aa31-fb50-4ce1-a4af-81afd446cd60",
+      "comment": "",
+      "command": "type",
+      "target": "css=.NativeElementContainer > #confirm-password",
+      "targets": [
+        ["css=.NativeElementContainer > #confirm-password", "css:finder"],
+        ["xpath=//input[@id='confirm-password']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='confirm-password']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//fl-bit[3]/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": "#siam1234"
+    }, {
+      "id": "582cf3b0-31c0-4b2d-86b5-693a526d2edd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.BitsListItemContent > .ng-star-inserted > .ButtonElement",
+      "targets": [
+        ["css=.BitsListItemContent > .ng-star-inserted > .ButtonElement", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//fl-list-item[2]/fl-bit/fl-bit/fl-bit/fl-bit/fl-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a44aa2dd-df39-41e3-8d16-0c1b68a8206b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.BitsListItemContent > .ng-star-inserted > .ButtonElement",
+      "targets": [
+        ["css=.BitsListItemContent > .ng-star-inserted > .ButtonElement", "css:finder"],
+        ["xpath=(//button[@type='button'])[17]", "xpath:attributes"],
+        ["xpath=//fl-list-item[2]/fl-bit/fl-bit/fl-bit/fl-bit/fl-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "94c1bbcf-31cc-4df6-8dab-2c0112964b0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.BannerAlertBox-desc > .NativeElement",
+      "targets": [
+        ["css=.BannerAlertBox-desc > .NativeElement", "css:finder"],
+        ["xpath=//fl-bit[2]/fl-text/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9f7aabc9-051b-48f3-b064-c72f176c8865",
+    "name": "Reset password validation",
+    "commands": [{
+      "id": "6ce14e26-e6e7-4d5b-a9e5-39a0380b8665",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.freelancer.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc49fbfb-82bb-4bc8-a2a3-a3d12cc4dcc8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ad6948e-2f81-4a12-9196-717c438803d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.LoginForm-rememberMe .LinkElement",
+      "targets": [
+        ["css=.LoginForm-rememberMe .LinkElement", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//fl-link/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Forgot Password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65ae040e-06dd-4c4e-974f-a65a3dff0632",
+      "comment": "",
+      "command": "click",
+      "target": "css=fl-button:nth-child(1) > .ButtonElement",
+      "targets": [
+        ["css=fl-button:nth-child(1) > .ButtonElement", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//fl-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "395a19af-ca38-4b09-8dfc-ca0b88327b66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-bit/fl-text/div", "xpath:position"],
+        ["xpath=//div[contains(.,'Please enter your email address.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5756e80d-ce02-4209-af38-288f41efc9f7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ErrorContainer .NativeElement",
+      "targets": [],
+      "value": "Please enter your email address."
+    }]
+  }, {
+    "id": "d9f31b07-cc3c-44b6-8de7-689d7affd37c",
+    "name": "Reset  password",
+    "commands": [{
+      "id": "98095fd8-ccff-4a19-ac8b-a757311d5c98",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.freelancer.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d46dd1f-a8b1-4553-ac9a-208f9a2e790b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ff4c5e4-7084-420d-9b67-d08f5699f42c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.LoginForm-rememberMe .LinkElement",
+      "targets": [
+        ["css=.LoginForm-rememberMe .LinkElement", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//fl-link/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Forgot Password?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f826b43-fe8c-4392-b6ba-912d84e86d49",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NativeElementContainer > .NativeElement",
+      "targets": [
+        ["css=.NativeElementContainer > .NativeElement", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b87c5df8-6f71-4041-aac9-d558bf58a881",
+      "comment": "",
+      "command": "type",
+      "target": "css=.NativeElementContainer > .NativeElement",
+      "targets": [
+        ["css=.NativeElementContainer > .NativeElement", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mehedisiam11@gmail.com"
+    }, {
+      "id": "f2aec03b-511b-4aee-a19d-f363a433c085",
+      "comment": "",
+      "command": "click",
+      "target": "css=fl-button:nth-child(1) > .ButtonElement",
+      "targets": [
+        ["css=fl-button:nth-child(1) > .ButtonElement", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//fl-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Next')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed662662-4c2d-43d0-997e-0b33709ca198",
+      "comment": "",
+      "command": "click",
+      "target": "css=fl-button:nth-child(1) > .ButtonElement",
+      "targets": [
+        ["css=fl-button:nth-child(1) > .ButtonElement", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//fl-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Enter new password')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "be2d1aaa-e003-4d63-a30a-bc7bd41e2dc1",
+    "name": "profile validation",
+    "commands": [{
+      "id": "e6827222-9487-4a96-93dc-2b259031ff6e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.freelancer.com/user/settings/profile",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b90e159-fc8a-4b14-9c72-ec5cd4f19a84",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b980894f-cbf0-4d9d-8516-8f2e3cff9b17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.BitsListItemContent > .ng-star-inserted > .ButtonElement",
+      "targets": [
+        ["css=.BitsListItemContent > .ng-star-inserted > .ButtonElement", "css:finder"],
+        ["xpath=(//button[@type='button'])[14]", "xpath:attributes"],
+        ["xpath=//fl-list-item[4]/fl-bit/fl-bit/fl-bit/fl-bit/fl-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "069cf7a0-7231-4cfa-9b45-5cf0e565df45",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c167-22 > .ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c167-22 > .ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-input[@id='first-name']/fl-validation-error/fl-bit/fl-text/div", "xpath:idRelative"],
+        ["xpath=//fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fba0e55-4fd7-46a2-a031-c5c7b79af309",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ng-tns-c167-22 > .ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c167-22 > .ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-input[@id='first-name']/fl-validation-error/fl-bit/fl-text/div", "xpath:idRelative"],
+        ["xpath=//fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": "This field is required"
+    }, {
+      "id": "20e5fc03-243b-48f4-97de-183b516d674f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c167-23 > .ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c167-23 > .ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-input[@id='last-name']/fl-validation-error/fl-bit/fl-text/div", "xpath:idRelative"],
+        ["xpath=//fl-col[2]/fl-input/fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbe9eee3-d2e0-43cf-b1f6-c927374aa45d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ng-tns-c167-23 > .ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c167-23 > .ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-input[@id='last-name']/fl-validation-error/fl-bit/fl-text/div", "xpath:idRelative"],
+        ["xpath=//fl-col[2]/fl-input/fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": "This field is required"
+    }, {
+      "id": "1ade99dd-2171-429d-8a27-24e442be9d8f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c167-28 > .ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c167-28 > .ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-input[@id='address']/fl-validation-error/fl-bit/fl-text/div", "xpath:idRelative"],
+        ["xpath=//fl-bit/fl-input/fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c3c19ac-a9b5-46df-9854-a9b82719ca71",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ng-tns-c167-28 > .ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c167-28 > .ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-input[@id='address']/fl-validation-error/fl-bit/fl-text/div", "xpath:idRelative"],
+        ["xpath=//fl-bit/fl-input/fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": "This field is required"
+    }, {
+      "id": "f2a43fb1-28df-4720-b7fb-edf424193543",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c167-31 > .ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c167-31 > .ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-input[@id='zip-code']/fl-validation-error/fl-bit/fl-text/div", "xpath:idRelative"],
+        ["xpath=//app-user-settings-profile-address/fl-grid/fl-col/fl-input/fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2f76e88-4767-423e-9457-afd391bc849a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ng-tns-c167-31 fl-text",
+      "targets": [
+        ["css=.ng-tns-c167-31 fl-text", "css:finder"],
+        ["xpath=//fl-input[@id='zip-code']/fl-validation-error/fl-bit/fl-text", "xpath:idRelative"],
+        ["xpath=//app-user-settings-profile-address/fl-grid/fl-col/fl-input/fl-validation-error/fl-bit/fl-text", "xpath:position"]
+      ],
+      "value": "This field is required"
+    }, {
+      "id": "0398f5c1-1114-4077-af07-5f1a85105959",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ng-tns-c167-35 > .ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c167-35 > .ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-location-input[@id='location']/fl-bit/fl-input/fl-validation-error/fl-bit/fl-text/div", "xpath:idRelative"],
+        ["xpath=//fl-location-input/fl-bit/fl-input/fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4b0045b-b50c-41da-92e2-ccb0aa97e33e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.ng-tns-c167-35 > .ErrorContainer .NativeElement",
+      "targets": [
+        ["css=.ng-tns-c167-35 > .ErrorContainer .NativeElement", "css:finder"],
+        ["xpath=//fl-location-input[@id='location']/fl-bit/fl-input/fl-validation-error/fl-bit/fl-text/div", "xpath:idRelative"],
+        ["xpath=//fl-location-input/fl-bit/fl-input/fl-validation-error/fl-bit/fl-text/div", "xpath:position"]
+      ],
+      "value": "This field is required"
+    }]
+  }, {
+    "id": "ec4a91b2-2acf-42cd-8e24-57963625f8fe",
+    "name": "profile edit",
+    "commands": [{
+      "id": "a4308c84-421e-44b9-a78f-b2b3f2c9cd2e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.freelancer.com/user/settings/profile",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7ee8534e-3b39-4687-9f57-8cb11a8ff42e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83b7b8e5-5223-41be-ac2a-c3f2613cd60b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NativeElementContainer > #first-name",
+      "targets": [
+        ["css=.NativeElementContainer > #first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='first-name']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4287b85-5213-49e5-90b7-640ad3ed2aa8",
+      "comment": "",
+      "command": "type",
+      "target": "css=.NativeElementContainer > #first-name",
+      "targets": [
+        ["css=.NativeElementContainer > #first-name", "css:finder"],
+        ["xpath=//input[@id='first-name']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='first-name']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Zabir Ibne Hiyan"
+    }, {
+      "id": "d25d16f9-ca7c-4fed-9079-8276067b9382",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NativeElementContainer > #last-name",
+      "targets": [
+        ["css=.NativeElementContainer > #last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='last-name']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//fl-col[2]/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51695735-3eae-4c9b-9cb3-f09c444ef583",
+      "comment": "",
+      "command": "type",
+      "target": "css=.NativeElementContainer > #last-name",
+      "targets": [
+        ["css=.NativeElementContainer > #last-name", "css:finder"],
+        ["xpath=//input[@id='last-name']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='last-name']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//fl-col[2]/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": "Mehedy"
+    }, {
+      "id": "cdb104f0-2860-4360-9cde-c5ad90e76437",
+      "comment": "",
+      "command": "click",
+      "target": "css=.IsFocused #address",
+      "targets": [
+        ["css=.IsFocused #address", "css:finder"],
+        ["xpath=//input[@id='address']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='address']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//fl-bit/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d5bdda9-4a5c-45dc-8ecb-51eb0e7f0f3e",
+      "comment": "",
+      "command": "type",
+      "target": "css=.IsFocused #address",
+      "targets": [
+        ["css=.IsFocused #address", "css:finder"],
+        ["xpath=//input[@id='address']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='address']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//fl-bit/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": "Khustia"
+    }, {
+      "id": "eb5ad428-01a2-4fe8-87d7-28a756bd96d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.IsFocused #address",
+      "targets": [
+        ["css=.IsFocused #address", "css:finder"],
+        ["xpath=(//input[@id='address'])[2]", "xpath:attributes"],
+        ["xpath=(//fl-input[@id='address']/fl-bit/fl-bit/fl-bit/input)[2]", "xpath:idRelative"],
+        ["xpath=//fl-input[2]/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ea50fff-5310-46f4-b632-388e7cec0970",
+      "comment": "",
+      "command": "type",
+      "target": "css=.IsFocused #address",
+      "targets": [
+        ["css=.IsFocused #address", "css:finder"],
+        ["xpath=(//input[@id='address'])[2]", "xpath:attributes"],
+        ["xpath=(//fl-input[@id='address']/fl-bit/fl-bit/fl-bit/input)[2]", "xpath:idRelative"],
+        ["xpath=//fl-input[2]/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": "SS Road"
+    }, {
+      "id": "48980fd9-328c-4d75-af93-98dadb033139",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NativeElementContainer > #city",
+      "targets": [
+        ["css=.NativeElementContainer > #city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='city']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//fl-bit[2]/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7fe6c69-ee7c-42f6-aa9e-50e3d559da49",
+      "comment": "",
+      "command": "type",
+      "target": "css=.NativeElementContainer > #city",
+      "targets": [
+        ["css=.NativeElementContainer > #city", "css:finder"],
+        ["xpath=//input[@id='city']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='city']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//fl-bit[2]/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": "Khustia 3456"
+    }, {
+      "id": "00d94053-c98a-4ed0-9793-7d473335f08b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NativeElementContainer > #zip-code",
+      "targets": [
+        ["css=.NativeElementContainer > #zip-code", "css:finder"],
+        ["xpath=//input[@id='zip-code']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='zip-code']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//app-user-settings-profile-address/fl-grid/fl-col/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f45ea379-ce23-4896-8260-44a2a19621ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NativeElementContainer > #zip-code",
+      "targets": [
+        ["css=.NativeElementContainer > #zip-code", "css:finder"],
+        ["xpath=//input[@id='zip-code']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='zip-code']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//app-user-settings-profile-address/fl-grid/fl-col/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b65ba972-6f77-4483-ab7d-8ce84af6f1f5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.NativeElementContainer > #zip-code",
+      "targets": [
+        ["css=.NativeElementContainer > #zip-code", "css:finder"],
+        ["xpath=//input[@id='zip-code']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='zip-code']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//app-user-settings-profile-address/fl-grid/fl-col/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": "897t"
+    }, {
+      "id": "9d3719d0-81c8-4989-be61-33a95c7b19c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NativeElementContainer > #state",
+      "targets": [
+        ["css=.NativeElementContainer > #state", "css:finder"],
+        ["xpath=//input[@id='state']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='state']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//app-user-settings-profile-state-input/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24bad740-8cd8-40c0-956f-5b70f9fd8e74",
+      "comment": "",
+      "command": "type",
+      "target": "css=.NativeElementContainer > #state",
+      "targets": [
+        ["css=.NativeElementContainer > #state", "css:finder"],
+        ["xpath=//input[@id='state']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='state']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//app-user-settings-profile-state-input/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": "12345"
+    }, {
+      "id": "85aa18be-80d5-496c-aba2-56ced04f6f16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.NativeElementContainer > #company",
+      "targets": [
+        ["css=.NativeElementContainer > #company", "css:finder"],
+        ["xpath=//input[@id='company']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='company']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//fl-bit[4]/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce60bf7f-3d94-4ed2-a638-62319f09bd99",
+      "comment": "",
+      "command": "type",
+      "target": "css=.NativeElementContainer > #company",
+      "targets": [
+        ["css=.NativeElementContainer > #company", "css:finder"],
+        ["xpath=//input[@id='company']", "xpath:attributes"],
+        ["xpath=//fl-input[@id='company']/fl-bit/fl-bit/fl-bit/input", "xpath:idRelative"],
+        ["xpath=//fl-bit[4]/fl-input/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": "For Testing "
+    }, {
+      "id": "eeb02652-65d9-4dfe-ba8b-8b1a2c15a93f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.BitsListItemContent > .ng-star-inserted > .ButtonElement",
+      "targets": [
+        ["css=.BitsListItemContent > .ng-star-inserted > .ButtonElement", "css:finder"],
+        ["xpath=(//button[@type='button'])[14]", "xpath:attributes"],
+        ["xpath=//fl-list-item[4]/fl-bit/fl-bit/fl-bit/fl-bit/fl-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8b86a3f-d77b-4c59-8938-710aaa75a13c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.InputButtonEnd > .ButtonElement",
+      "targets": [
+        ["css=.InputButtonEnd > .ButtonElement", "css:finder"],
+        ["xpath=(//button[@type='button'])[13]", "xpath:attributes"],
+        ["xpath=//fl-location-input[@id='location']/fl-bit/fl-input/fl-bit/fl-bit/fl-button/button", "xpath:idRelative"],
+        ["xpath=//fl-input/fl-bit/fl-bit/fl-button/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e820666-3bea-47db-ba9d-27641e044fc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.BitsListItemContent > .ng-star-inserted > .ButtonElement",
+      "targets": [
+        ["css=.BitsListItemContent > .ng-star-inserted > .ButtonElement", "css:finder"],
+        ["xpath=(//button[@type='button'])[14]", "xpath:attributes"],
+        ["xpath=//fl-list-item[4]/fl-bit/fl-bit/fl-bit/fl-bit/fl-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Save Settings')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b4ad6817-2ac3-4a7c-8aeb-15608eabcd47",
+    "name": "login",
+    "commands": [{
+      "id": "ed9b4640-a418-4e59-9a5a-a71b9ed9a038",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.freelancer.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75a671b1-c7de-4eaa-9488-a278a035a7d0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27dc17c5-56be-49ca-ac70-b008faddb0d3",
+      "comment": "",
+      "command": "click",
+      "target": "id=emailOrUsernameInput",
+      "targets": [
+        ["id=emailOrUsernameInput", "id"],
+        ["css=#emailOrUsernameInput", "css:finder"],
+        ["xpath=//input[@id='emailOrUsernameInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3054684a-e1f5-4238-9d45-c9f6a170f946",
+      "comment": "",
+      "command": "type",
+      "target": "id=emailOrUsernameInput",
+      "targets": [
+        ["id=emailOrUsernameInput", "id"],
+        ["css=#emailOrUsernameInput", "css:finder"],
+        ["xpath=//input[@id='emailOrUsernameInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mehedisiam11@gmail.com"
+    }, {
+      "id": "0a20ce18-95eb-461a-b9d4-bf44948e6a3c",
+      "comment": "",
+      "command": "click",
+      "target": "id=passwordInput",
+      "targets": [
+        ["id=passwordInput", "id"],
+        ["css=#passwordInput", "css:finder"],
+        ["xpath=//input[@id='passwordInput']", "xpath:attributes"],
+        ["xpath=//fl-input[2]/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bbbbc2da-d337-417c-9053-1063b00296e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=passwordInput",
+      "targets": [
+        ["id=passwordInput", "id"],
+        ["css=#passwordInput", "css:finder"],
+        ["xpath=//input[@id='passwordInput']", "xpath:attributes"],
+        ["xpath=//fl-input[2]/fl-bit/fl-bit/fl-bit/input", "xpath:position"]
+      ],
+      "value": "#siam1234"
+    }, {
+      "id": "5ea641aa-5284-432f-ad7d-0346e6aad179",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CheckboxLabel",
+      "targets": [
+        ["css=.CheckboxLabel", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Remember me')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b9b9c0e2-07c3-41a8-80a6-42b726aeacae",
+      "comment": "",
+      "command": "click",
+      "target": "css=app-login-signup-button .ButtonElement",
+      "targets": [
+        ["css=app-login-signup-button .ButtonElement", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//app-login-signup-button/fl-button/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Log In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "af3146b6-5672-4994-a0ec-c3df5702b103",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.freelancer.com/login", "https://www.freelancer.com/signup", "https://www.freelancer.com/u/MehediSiam11", "https://www.freelancer.com/user/settings/password", "https://www.freelancer.com/user/settings/profile"],
+  "plugins": []
+}
